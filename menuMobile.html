@@ -29,6 +29,8 @@
         }
         .mobile-menu{
             padding: 24px;
+            display: flex;
+            display: list-item;
         }
         .mobile-menu a{
             text-decoration: none;
@@ -54,6 +56,12 @@
         .sign-out{
             font-size: var(--sm);
             color: var(--hospital-green) !important;
+        }
+        .user-info{
+           
+          position: absolute;
+            bottom: 20px;
+            padding-bottom: 20px;
         }
 
     </style>
@@ -91,15 +99,11 @@
             <li>
                 <a href="/">My account</a>
             </li>
-        </ul>
-        <ul>
-            <li>
-                <a href="/" class="email">correo@gmail.com</a>
-            </li>
-            <li>
-                <a href="/" class="sign-out">Sing out</a>
-            </li>
-        </ul>
+        </ul>       
+    </div>
+    <div class="mobile-menu user-info">
+        <p>camila.yokoo@gmail.com</p>
+        <a href="#" class="sign-out">Sign out</a>
     </div>
 </body>
 
